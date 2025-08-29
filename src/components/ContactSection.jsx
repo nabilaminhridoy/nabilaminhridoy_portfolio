@@ -53,7 +53,7 @@ export const ContactSection = () => {
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Phone</h4>
+                  <h4 className="font-medium text-left"> Phone</h4>
                   <a
                     href="tel:+8801624647814"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -68,7 +68,7 @@ export const ContactSection = () => {
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Email</h4>
+                  <h4 className="font-medium text-left"> Email</h4>
                   <a
                     href="mailto:nabilaminhridoy@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
@@ -82,7 +82,7 @@ export const ContactSection = () => {
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Location</h4>
+                  <h4 className="font-medium text-left"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     240/1, South Paikpara, Mirpur, Dhaka
                   </a>
@@ -93,17 +93,20 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
-                  <Linkedin />
+                <a href="https://www.facebook.com/nabilaminhridoy/" target="_blank">
+                  <Facebook />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitter />
-                </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/nabilaminhridoy/" target="_blank">
                   <Instagram />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitch />
+                <a href="https://wa.me/8801624647814/" target="_blank">
+                  <WhatsApp />
+                </a>
+                <a href="https://www.linkedin.com/in/nabilaminhridoy/" target="_blank">
+                  <Linkedin />
+                </a>
+                <a href="https://www.github.com/nabilaminhridoy/" target="_blank">
+                  <Github />
                 </a>
               </div>
             </div>
