@@ -1,6 +1,5 @@
 import {
   Facebook,
-  Whatsapp,
   Github,
   Instagram,
   Linkedin,
@@ -9,7 +8,7 @@ import {
   Phone,
   Send,
   Twitch,
-  Twitter,
+  X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -109,7 +108,7 @@ export const ContactSection = () => {
                   <Linkedin />
                 </a>
                 <a href="https://www.x.com/nabilaminhridoy/" target="_blank">
-                  <Twitter />
+                  <X />
                 </a>
                 <a href="https://www.github.com/nabilaminhridoy/" target="_blank">
                   <Github />
