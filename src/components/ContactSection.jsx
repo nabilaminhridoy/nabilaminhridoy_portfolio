@@ -1,5 +1,7 @@
 import {
   Facebook,
+  WhatsApp,
+  Github,
   Instagram,
   Linkedin,
   Mail,
@@ -97,17 +99,20 @@ export const ContactSection = () => {
                 <a href="https://www.facebook.com/nabilaminhridoy/" target="_blank">
                   <Facebook />
                 </a>
+                <a href="https://www.instagram.com/nabilaminhridoy/" target="_blank">
+                  <Instagram />
+                </a>
+                <a href="https://wa.me/8801624647814/" target="_blank">
+                  <WhatsApp />
+                </a>
                 <a href="https://www.linkedin.com/in/nabilaminhridoy/" target="_blank">
                   <Linkedin />
                 </a>
                 <a href="https://www.x.com/nabilaminhridoy/" target="_blank">
                   <Twitter />
                 </a>
-                <a href="https://www.instagram.com/nabilaminhridoy/" target="_blank">
-                  <Instagram />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitch />
+                <a href="https://www.github.com/nabilaminhridoy/" target="_blank">
+                  <Github />
                 </a>
               </div>
             </div>
