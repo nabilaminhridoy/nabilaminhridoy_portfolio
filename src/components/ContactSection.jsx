@@ -1,6 +1,5 @@
 import {
   Facebook,
-  WhatsApp,
   Github,
   Instagram,
   Linkedin,
@@ -101,9 +100,6 @@ export const ContactSection = () => {
                 </a>
                 <a href="https://www.instagram.com/nabilaminhridoy/" target="_blank">
                   <Instagram />
-                </a>
-                <a href="https://wa.me/8801624647814/" target="_blank">
-                  <WhatsApp />
                 </a>
                 <a href="https://www.linkedin.com/in/nabilaminhridoy/" target="_blank">
                   <Linkedin />
