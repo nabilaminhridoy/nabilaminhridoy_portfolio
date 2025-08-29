@@ -1,9 +1,6 @@
 import {
-  Facebook,
   Instagram,
-  WhatsApp,
   Linkedin,
-  Github,
   Mail,
   MapPin,
   Phone,
@@ -85,7 +82,7 @@ export const ContactSection = () => {
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium text-left"> Location</h4>
+                  <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     240/1, South Paikpara, Mirpur, Dhaka
                   </a>
@@ -96,20 +93,17 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="https://www.facebook.com/nabilaminhridoy/" target="_blank">
-                  <Facebook />
-                </a>
-                <a href="https://www.instagram.com/nabilaminhridoy/" target="_blank">
-                  <Instagram />
-                </a>
-                <a href="https://wa.me/8801624647814/" target="_blank">
-                  <WhatsApp />
-                </a>
-                <a href="https://www.linkedin.com/in/nabilaminhridoy/" target="_blank">
+                <a href="https://wwe.linkedin.com/in/nabilaminhridoy/" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="https://www.github.com/nabilaminhridoy/" target="_blank">
-                  <Github />
+                <a href="https://wwe.x.com/nabilaminhridoy/" target="_blank">
+                  <Twitter />
+                </a>
+                <a href="https://wwe.instagram.com/nabilaminhridoy/" target="_blank">
+                  <Instagram />
+                </a>
+                <a href="#" target="_blank">
+                  <Twitch />
                 </a>
               </div>
             </div>
