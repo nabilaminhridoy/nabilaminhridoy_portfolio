@@ -8,7 +8,7 @@ import {
   Phone,
   Send,
   Twitch,
-  X,
+  Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -84,7 +84,7 @@ export const ContactSection = () => {
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Location</h4>
+                  <h4 className="font-medium text-left"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     240/1, South Paikpara, Mirpur, Dhaka
                   </a>
@@ -108,7 +108,7 @@ export const ContactSection = () => {
                   <Linkedin />
                 </a>
                 <a href="https://www.x.com/nabilaminhridoy/" target="_blank">
-                  <X />
+                  <Twitter />
                 </a>
                 <a href="https://www.github.com/nabilaminhridoy/" target="_blank">
                   <Github />
