@@ -1,6 +1,9 @@
 import {
+  Facebook,
   Instagram,
+  WhatsApp,
   Linkedin,
+  Github,
   Mail,
   MapPin,
   Phone,
